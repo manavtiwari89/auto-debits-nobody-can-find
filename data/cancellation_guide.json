@@ -1,0 +1,252 @@
+{
+  "audit_metadata": {
+    "audit_date": "2026-10-31",
+    "auditor": "Anti-Hallucination Source Verification Audit",
+    "verified_count": 8,
+    "unverified_count": 3,
+    "total_catalog_count": 11,
+    "regulatory_framework": "RBI Master Directions on Digital Payments / E-Mandate Framework & NPCI UPI AutoPay"
+  },
+  "cancellation_guides": [
+    {
+      "merchant": "Netflix",
+      "category": "Streaming & Media",
+      "settings_location": "Netflix App / Web > Account > Membership & Billing (or netflix.com/cancelplan)",
+      "cancellation_steps": [
+        "Sign in to your Netflix account in a web browser or the Netflix app.",
+        "Click your profile icon in the top right corner and select 'Account'.",
+        "Under the 'Membership & Billing' section, click the 'Cancel Membership' button (or go to netflix.com/cancelplan).",
+        "Click 'Finish Cancellation' to confirm. Your access will continue until the end of your current billing period."
+      ],
+      "source_url": "https://help.netflix.com/en/node/407",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Netflix Help Center - How to cancel or pause your Netflix account",
+      "mandate_guidance": [
+        "If you signed up with UPI AutoPay, you must separately revoke the recurring mandate in your UPI app (Google Pay, PhonePe, or Paytm).",
+        "Open your UPI app > Profile > 'AutoPay' / 'Recurring Payments' > Select 'Netflix' > Tap 'Revoke Mandate' or 'Pause'.",
+        "Enter your UPI PIN to permanently revoke the payment authority so future charges cannot be debited."
+      ]
+    },
+    {
+      "merchant": "Spotify",
+      "category": "Streaming & Media",
+      "settings_location": "Spotify Web > Account Overview (spotify.com/account) > Your Plan",
+      "cancellation_steps": [
+        "Log in to your account page at spotify.com/account in a web browser (direct plans cannot be cancelled in-app).",
+        "Under 'Your plan', click 'Change plan'.",
+        "Scroll down to 'Cancel Spotify' and click 'Cancel Premium'.",
+        "Confirm the cancellation. You will retain Premium features until your next billing date."
+      ],
+      "source_url": "https://support.spotify.com/article/how-to-cancel-premium-plans/",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Spotify Support - How to cancel Premium plans",
+      "mandate_guidance": [
+        "Cancelling Spotify Premium stops Spotify from requesting renewals, but for UPI AutoPay (or recurring card mandates), revoke the mandate directly:",
+        "Go to your UPI App (e.g. PhonePe / Google Pay / BHIM) > Manage AutoPay / E-mandates.",
+        "Locate 'Spotify India / Spotify AB' and tap 'Cancel Mandate' / 'Revoke'. Confirm with your UPI PIN."
+      ]
+    },
+    {
+      "merchant": "Amazon Prime",
+      "category": "Streaming & Media",
+      "settings_location": "Amazon.in App / Web > Your Account > Prime > Manage Membership",
+      "cancellation_steps": [
+        "Go to Amazon.in and navigate to 'Your Account'.",
+        "Click on 'Prime - View benefits and payment settings'.",
+        "Click on 'Manage Membership' in the menu bar.",
+        "Select 'End Membership and benefits' and follow the on-screen prompts to confirm cancellation."
+      ],
+      "source_url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=GT42DE9P99FQTC27",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Amazon.in Help - End Your Amazon Prime Membership",
+      "mandate_guidance": [
+        "For annual or monthly Prime e-mandates issued on debit/credit cards or UPI:",
+        "Visit your bank's NetBanking portal > E-Mandate Hub or SI Management.",
+        "Or check Google Pay / PhonePe > AutoPay > 'Amazon Pay India' > Revoke AutoPay mandate."
+      ]
+    },
+    {
+      "merchant": "Disney+ Hotstar",
+      "category": "Streaming & Media",
+      "settings_location": "Disney+ Hotstar App / Web > My Space > Help & Settings > Subscriptions",
+      "cancellation_steps": [
+        "Open the Disney+ Hotstar app or visit hotstar.com/in.",
+        "Go to 'My Space' or your Profile icon.",
+        "Select 'Help & Settings' and click 'Subscriptions'.",
+        "Select 'Cancel Membership' and complete the verification step."
+      ],
+      "source_url": "https://help.hotstar.com/in/en/support/solutions/articles/68000001221-how-do-i-cancel-my-subscription",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Disney+ Hotstar Help - How do I cancel my subscription?",
+      "mandate_guidance": [
+        "If subscribed via Google Play / Apple App Store, cancel directly in the Play Store / iOS Subscriptions settings.",
+        "If set up via direct UPI AutoPay (Novi Digital), open your UPI app (Paytm/PhonePe/GPay), navigate to AutoPay, select Novi Digital / Hotstar, and revoke the mandate."
+      ]
+    },
+    {
+      "merchant": "YouTube Premium",
+      "category": "Streaming & Media",
+      "settings_location": "YouTube Web / App > Profile > Purchases and memberships (youtube.com/paid_memberships)",
+      "cancellation_steps": [
+        "Open youtube.com/paid_memberships or the YouTube mobile app.",
+        "Tap your profile picture and tap 'Purchases and memberships'.",
+        "Tap on the membership you want to cancel (YouTube Premium).",
+        "Tap 'Deactivate' or 'Manage', then select 'Continue to cancel' and select a reason."
+      ],
+      "source_url": "https://support.google.com/youtube/answer/6308278",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "YouTube Help - Cancel your YouTube paid membership",
+      "mandate_guidance": [
+        "YouTube Premium mandates are managed through Google Pay / Google Payments profile at payments.google.com.",
+        "Go to payments.google.com > 'Subscriptions and services' > Cancel.",
+        "To prevent future charges, also check your banking app / UPI AutoPay settings and revoke Google India / Google Payments mandates."
+      ]
+    },
+    {
+      "merchant": "Google One",
+      "category": "Software & Cloud",
+      "settings_location": "Google One Web (one.google.com) / App > Settings > Cancel membership",
+      "cancellation_steps": [
+        "Go to one.google.com on your browser or open the Google One Android/iOS app.",
+        "Click the 'Settings' icon (gear) on the left sidebar.",
+        "Click 'Cancel membership'.",
+        "Confirm by selecting 'Cancel membership' on the prompt. Note: Storage shrinks to free 15 GB upon expiration."
+      ],
+      "source_url": "https://support.google.com/googleone/answer/9056360",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Google One Help - Cancel your Google One membership",
+      "mandate_guidance": [
+        "Open Google Play Store > Tap Profile Icon > 'Payments & Subscriptions' > 'Subscriptions'.",
+        "Select Google One and tap 'Cancel Subscription'.",
+        "Check your UPI app (PhonePe/GPay/Paytm) under AutoPay and delete the active e-mandate."
+      ]
+    },
+    {
+      "merchant": "Apple Services",
+      "category": "Software & Cloud",
+      "settings_location": "iPhone/iPad > Settings > [Your Name] > Subscriptions (or subs.apple.com)",
+      "cancellation_steps": [
+        "Open the 'Settings' app on your iPhone or iPad.",
+        "Tap your Apple Account name at the very top.",
+        "Tap 'Subscriptions'.",
+        "Tap the subscription (e.g. iCloud+, Apple Music, Apple One) and tap 'Cancel Subscription'."
+      ],
+      "source_url": "https://support.apple.com/en-in/118428",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Apple Support - If you want to cancel a subscription from Apple",
+      "mandate_guidance": [
+        "Apple requires Apple Account funds or an RBI-compliant e-mandate for recurring Indian billing.",
+        "To stop future debits at the banking layer, log in to your bank's net banking portal > 'Standing Instructions / E-Mandates' > Revoke mandate for Apple Services India."
+      ]
+    },
+    {
+      "merchant": "Microsoft 365",
+      "category": "Software & Cloud",
+      "settings_location": "account.microsoft.com > Services & subscriptions",
+      "cancellation_steps": [
+        "Go to account.microsoft.com/services and sign in with your Microsoft account.",
+        "Find your Microsoft 365 subscription and select 'Manage'.",
+        "On the next page, select 'Cancel subscription' (or 'Upgrade or Cancel').",
+        "Follow the instructions on the page to proceed with cancellation."
+      ],
+      "source_url": "https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b",
+      "last_verified": "31 October 2026",
+      "is_verified": true,
+      "checked_source_title": "Microsoft Support - Cancel a Microsoft 365 subscription",
+      "mandate_guidance": [
+        "For annual card e-mandates or recurring bank debits, cancel recurring billing at account.microsoft.com first.",
+        "If charged through recurring debit cards, use your bank's SI Hub portal to remove the Microsoft e-mandate."
+      ]
+    },
+    {
+      "merchant": "Swiggy One",
+      "category": "Delivery & Food",
+      "settings_location": "Merchant Official App/Web > Profile > Settings > Subscriptions",
+      "cancellation_steps": [
+        "Log into the merchant's official web portal or mobile application directly.",
+        "Navigate to Account / Profile > Settings > Subscriptions, Billing, or Payments.",
+        "Look for an option labelled 'Cancel Subscription', 'Turn Off Auto-Renew', or 'Manage Plan'.",
+        "Ensure you receive a confirmation email or SMS acknowledging the cancellation."
+      ],
+      "source_url": "",
+      "last_verified": "Unverified",
+      "is_verified": false,
+      "audit_note": "No dedicated official web cancellation URL exists. General legal terms page (swiggy.com/terms-and-conditions) does not provide direct cancellation steps. Actionable cancellation is in-app only and via UPI AutoPay mandate revocation.",
+      "mandate_guidance": [
+        "In Indian banking, cancelling an in-app subscription does NOT always revoke the bank-level standing mandate.",
+        "Open your UPI Application (Google Pay, PhonePe, Paytm, BHIM, CRED).",
+        "Go to Settings / Profile > 'AutoPay' / 'Recurring Payments' / 'E-mandates'.",
+        "Locate the merchant name or VPA, tap 'Revoke Mandate' or 'Cancel', and enter your UPI PIN to stop future debits.",
+        "For debit/credit card e-mandates, log into your issuing bank's NetBanking portal and visit the 'SI Hub / E-Mandate Management' section to cancel."
+      ]
+    },
+    {
+      "merchant": "Zomato Gold",
+      "category": "Delivery & Food",
+      "settings_location": "Merchant Official App/Web > Profile > Settings > Subscriptions",
+      "cancellation_steps": [
+        "Log into the merchant's official web portal or mobile application directly.",
+        "Navigate to Account / Profile > Settings > Subscriptions, Billing, or Payments.",
+        "Look for an option labelled 'Cancel Subscription', 'Turn Off Auto-Renew', or 'Manage Plan'.",
+        "Ensure you receive a confirmation email or SMS acknowledging the cancellation."
+      ],
+      "source_url": "",
+      "last_verified": "Unverified",
+      "is_verified": false,
+      "audit_note": "No dedicated official web cancellation URL exists. General conditions page (zomato.com/conditions) does not provide direct cancellation steps. Auto-renewal management is in-app only and via UPI AutoPay mandate revocation.",
+      "mandate_guidance": [
+        "In Indian banking, cancelling an in-app subscription does NOT always revoke the bank-level standing mandate.",
+        "Open your UPI Application (Google Pay, PhonePe, Paytm, BHIM, CRED).",
+        "Go to Settings / Profile > 'AutoPay' / 'Recurring Payments' / 'E-mandates'.",
+        "Locate the merchant name or VPA, tap 'Revoke Mandate' or 'Cancel', and enter your UPI PIN to stop future debits.",
+        "For debit/credit card e-mandates, log into your issuing bank's NetBanking portal and visit the 'SI Hub / E-Mandate Management' section to cancel."
+      ]
+    },
+    {
+      "merchant": "Cult.fit",
+      "category": "Health & Fitness",
+      "settings_location": "Merchant Official App/Web > Profile > Settings > Subscriptions",
+      "cancellation_steps": [
+        "Log into the merchant's official web portal or mobile application directly.",
+        "Navigate to Account / Profile > Settings > Subscriptions, Billing, or Payments.",
+        "Look for an option labelled 'Cancel Subscription', 'Turn Off Auto-Renew', or 'Manage Plan'.",
+        "Ensure you receive a confirmation email or SMS acknowledging the cancellation."
+      ],
+      "source_url": "",
+      "last_verified": "Unverified",
+      "is_verified": false,
+      "audit_note": "No dedicated official web cancellation tutorial URL exists. General legal terms page (cult.fit/terms) does not provide direct cancellation steps. Recurring packs are managed in-app and via bank NACH / UPI AutoPay mandate revocation.",
+      "mandate_guidance": [
+        "In Indian banking, cancelling an in-app subscription does NOT always revoke the bank-level standing mandate.",
+        "Open your UPI Application (Google Pay, PhonePe, Paytm, BHIM, CRED).",
+        "Go to Settings / Profile > 'AutoPay' / 'Recurring Payments' / 'E-mandates'.",
+        "Locate the merchant name or VPA, tap 'Revoke Mandate' or 'Cancel', and enter your UPI PIN to stop future debits.",
+        "For debit/credit card e-mandates, log into your issuing bank's NetBanking portal and visit the 'SI Hub / E-Mandate Management' section to cancel."
+      ]
+    }
+  ],
+  "generic_fallback": {
+    "title": "Standard Unverified Merchant Cancellation Protocol",
+    "notice": "We do not have a verified, human-audited direct cancellation guide for this specific merchant. To protect your financial security, we will never invent fake URLs or unverified instructions.",
+    "merchant_level_steps": [
+      "Log into the merchant's official web portal or mobile application directly.",
+      "Navigate to Account / Profile > Settings > Subscriptions, Billing, or Payments.",
+      "Look for an option labelled 'Cancel Subscription', 'Turn Off Auto-Renew', or 'Manage Plan'.",
+      "Ensure you receive a confirmation email or SMS acknowledging the cancellation."
+    ],
+    "mandate_level_steps": [
+      "In Indian banking, cancelling an in-app subscription does NOT always revoke the bank-level standing mandate.",
+      "Open your UPI Application (Google Pay, PhonePe, Paytm, BHIM, CRED).",
+      "Go to Settings / Profile > 'AutoPay' / 'Recurring Payments' / 'E-mandates'.",
+      "Locate the merchant name or VPA, tap 'Revoke Mandate' or 'Cancel', and enter your UPI PIN to stop future debits.",
+      "For debit/credit card e-mandates, log into your issuing bank's NetBanking portal and visit the 'SI Hub / E-Mandate Management' section to cancel."
+    ]
+  }
+}

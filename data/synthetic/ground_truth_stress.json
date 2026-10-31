@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "generated_with_seed": 99,
+    "statement_period": "01/11/2025 to 31/10/2026",
+    "total_months": 12,
+    "dataset_name": "stress_transactions.csv"
+  },
+  "recurring_series": [
+    {
+      "merchant": "Netflix",
+      "cadence": "Monthly",
+      "expected_amount": 649.0,
+      "has_price_hike": true,
+      "old_amount": 499.0,
+      "new_amount": 649.0,
+      "hike_percentage": 30.06,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Spotify",
+      "cadence": "Monthly",
+      "expected_amount": 119.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Google One",
+      "cadence": "Monthly",
+      "expected_amount": 130.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "JioFiber",
+      "cadence": "Monthly",
+      "expected_amount": 1179.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Disney+ Hotstar",
+      "cadence": "Quarterly",
+      "expected_amount": 499.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Swiggy One",
+      "cadence": "Quarterly",
+      "expected_amount": 299.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Amazon Prime",
+      "cadence": "Annual",
+      "expected_amount": 1499.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Microsoft 365",
+      "cadence": "Annual",
+      "expected_amount": 4899.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Cult.fit",
+      "cadence": "Monthly",
+      "expected_amount": 1750.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": true,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "BESCOM Electricity",
+      "cadence": "Monthly",
+      "expected_amount": 1590.0,
+      "has_price_hike": false,
+      "is_variable_bill": true,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": false
+    },
+    {
+      "merchant": "Fitness First Gym",
+      "cadence": "Monthly",
+      "expected_amount": 2500.0,
+      "has_price_hike": false,
+      "is_variable_bill": false,
+      "is_paused_resumed": false,
+      "is_unknown_merchant": true
+    }
+  ],
+  "ordinary_repeats_to_reject": [
+    "Swiggy",
+    "Zomato",
+    "Zepto",
+    "Uber"
+  ]
+}

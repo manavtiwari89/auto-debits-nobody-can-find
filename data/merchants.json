@@ -1,0 +1,283 @@
+{
+  "merchants": [
+    {
+      "name": "Netflix",
+      "category": "Streaming & Media",
+      "aliases": ["NETFLIX", "NFLX", "NETFLIX ENTERTAINMENT", "NETFLIX.COM", "NETFLIX INDIA", "NETFLIX MUMBAI"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [149, 199, 499, 649]
+    },
+    {
+      "name": "Spotify",
+      "category": "Streaming & Media",
+      "aliases": ["SPOTIFY", "SPOTIFY INDIA", "SPOTIFY AB", "SPOTIFY PREMIUM", "SPOTIFY SWEDEN"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [119, 129, 179, 719, 1189]
+    },
+    {
+      "name": "Amazon Prime",
+      "category": "Streaming & Media",
+      "aliases": ["AMAZON PRIME", "AMZN PRIME", "PRIME VIDEO", "AMAZON DIGITAL", "AMAZON PRIME MEMBERSHIP", "AMZNPRIME"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [299, 1499]
+    },
+    {
+      "name": "Disney+ Hotstar",
+      "category": "Streaming & Media",
+      "aliases": ["HOTSTAR", "DISNEY HOTSTAR", "NOVI DIGITAL", "DISNEY+ HOTSTAR", "DISNEY PLUS HOTSTAR"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [299, 899, 1499]
+    },
+    {
+      "name": "YouTube Premium",
+      "category": "Streaming & Media",
+      "aliases": ["YOUTUBE", "GOOGLE YOUTUBE", "YOUTUBE PREMIUM", "GOOGLE *YOUTUBE", "YOUTUBE MUSIC"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [129, 149, 189, 299]
+    },
+    {
+      "name": "SonyLIV",
+      "category": "Streaming & Media",
+      "aliases": ["SONYLIV", "SONY LIV", "CULVER MAX", "CULVER MAX ENTERTAINMENT"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [299, 599, 999, 1499]
+    },
+    {
+      "name": "Zee5",
+      "category": "Streaming & Media",
+      "aliases": ["ZEE5", "ZEE ENTERTAINMENT", "ZEE5 SUBSCRIPTION"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [399, 699, 899]
+    },
+    {
+      "name": "Apple Services",
+      "category": "Software & Cloud",
+      "aliases": ["APPLE.COM/BILL", "ITUNES.COM/BILL", "APPLE ICLOUD", "APPLE SERVICES", "APPLE INDIA", "APPLE ONE"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [75, 219, 365, 749]
+    },
+    {
+      "name": "Google One",
+      "category": "Software & Cloud",
+      "aliases": ["GOOGLE ONE", "GOOGLE STORAGE", "GOOGLE *GOOGLE ONE", "GOOGLE IRELAND", "GOOGLE CLOUD STORAGE"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [130, 210, 650, 1300]
+    },
+    {
+      "name": "Microsoft 365",
+      "category": "Software & Cloud",
+      "aliases": ["MICROSOFT", "MSFT *OFFICE", "MSFT 365", "MICROSOFT INDIA", "MSFT *SUBSCRIPTION"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [489, 4899, 6199]
+    },
+    {
+      "name": "ChatGPT / OpenAI",
+      "category": "Software & Cloud",
+      "aliases": ["OPENAI", "CHATGPT SUBSCRIPTION", "OPENAI *CHATGPT", "OPENAI LLC"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [1650, 1999]
+    },
+    {
+      "name": "GitHub",
+      "category": "Software & Cloud",
+      "aliases": ["GITHUB", "GITHUB INC", "GITHUB COPILOT", "GITHUB.COM"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [850, 1700]
+    },
+    {
+      "name": "Swiggy One",
+      "category": "Delivery & Food",
+      "aliases": ["SWIGGY ONE", "SWIGGY MEMBERSHIP", "BUNDL TECH SWIGGY ONE", "SWIGGY SUPER"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Quarterly",
+      "typical_amounts": [149, 299, 499, 899]
+    },
+    {
+      "name": "Zomato Gold",
+      "category": "Delivery & Food",
+      "aliases": ["ZOMATO GOLD", "ZOMATO PRO", "ZOMATO LIMITED GOLD", "ZOMATO MEMBERSHIP"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Quarterly",
+      "typical_amounts": [99, 199, 399, 999]
+    },
+    {
+      "name": "Zepto Pass",
+      "category": "Delivery & Food",
+      "aliases": ["ZEPTO PASS", "KIRANAKART ZEPTO PASS", "ZEPTO MEMBERSHIP"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [49, 99, 149]
+    },
+    {
+      "name": "Cult.fit",
+      "category": "Health & Fitness",
+      "aliases": ["CULT.FIT", "CUREFIT", "CULTFIT HEALTHCARE", "CULT PASS", "CUREFIT HEALTHCARE"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [1250, 1500, 3999, 14999]
+    },
+    {
+      "name": "JioFiber",
+      "category": "Telecom & Broadband",
+      "aliases": ["JIOFIBER", "RELIANCE JIO FIBER", "JIO BROADBAND", "JIO FIBER BROADBAND"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [469, 824, 1178, 1768]
+    },
+    {
+      "name": "Airtel Broadband",
+      "category": "Telecom & Broadband",
+      "aliases": ["AIRTEL BROADBAND", "BHARTI AIRTEL BROADBAND", "AIRTEL FIBER", "AIRTEL XSTREAM FIBER"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [589, 943, 1179, 1769]
+    },
+    {
+      "name": "Tata Play Fiber",
+      "category": "Telecom & Broadband",
+      "aliases": ["TATA PLAY FIBER", "TATA SKY BROADBAND", "TATA BROADBAND"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": [750, 1150, 1500]
+    },
+    {
+      "name": "Times Prime",
+      "category": "Delivery & Food",
+      "aliases": ["TIMES PRIME", "BENNETT COLEMAN TIMES PRIME", "TIMES INTERNET"],
+      "is_variable_bill": false,
+      "is_retail": false,
+      "default_cadence": "Annual",
+      "typical_amounts": [899, 1199]
+    },
+    {
+      "name": "BESCOM Electricity",
+      "category": "Utilities & Bills",
+      "aliases": ["BESCOM", "BANGALORE ELECTRICITY", "BESCOM ONLINE"],
+      "is_variable_bill": true,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": []
+    },
+    {
+      "name": "Tata Power",
+      "category": "Utilities & Bills",
+      "aliases": ["TATA POWER", "TATA POWER CO", "TPC MUMBAI"],
+      "is_variable_bill": true,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": []
+    },
+    {
+      "name": "Adani Electricity",
+      "category": "Utilities & Bills",
+      "aliases": ["ADANI ELECTRICITY", "ADANI POWER", "AEML MUMBAI"],
+      "is_variable_bill": true,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": []
+    },
+    {
+      "name": "Airtel Postpaid",
+      "category": "Utilities & Bills",
+      "aliases": ["AIRTEL POSTPAID", "BHARTI AIRTEL LTD POSTPAID", "AIRTEL MOBILITY"],
+      "is_variable_bill": true,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": []
+    },
+    {
+      "name": "Jio Postpaid",
+      "category": "Utilities & Bills",
+      "aliases": ["JIO POSTPAID", "RELIANCE JIO INFO POSTPAID", "JIO MOBILITY"],
+      "is_variable_bill": true,
+      "is_retail": false,
+      "default_cadence": "Monthly",
+      "typical_amounts": []
+    },
+    {
+      "name": "Swiggy",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["SWIGGY", "BUNDL TECHNOLOGIES", "SWIGGY BANGALORE", "SWIGGY FOOD"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    },
+    {
+      "name": "Zomato",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["ZOMATO", "ZOMATO LIMITED", "ZOMATO ORDER", "ZOMATO RESTAURANT"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    },
+    {
+      "name": "Blinkit",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["BLINKIT", "COMMERCE IQ", "GROFERS", "BLINKIT COMMERCE"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    },
+    {
+      "name": "Zepto",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["ZEPTO", "KIRANAKART", "ZEPTO QUICK"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    },
+    {
+      "name": "Uber",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["UBER", "UBER INDIA", "UBER RIDES", "UBER TRIP"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    },
+    {
+      "name": "Starbucks",
+      "category": "Discretionary Retail & Dining",
+      "aliases": ["STARBUCKS", "TATA STARBUCKS", "STARBUCKS COFFEE"],
+      "is_variable_bill": false,
+      "is_retail": true,
+      "default_cadence": "Irregular",
+      "typical_amounts": []
+    }
+  ]
+}
