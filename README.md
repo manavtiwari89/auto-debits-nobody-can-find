@@ -4,16 +4,14 @@
 
 A privacy-first audit assistant that turns Indian bank-statement CSVs into an understandable list of recurring payments, possible price increases, projected costs, and cancellation or mandate guidance.
 
-## Run locally
+## Run 
+> **Hackathon Theme:** T4 (Fintech)  
+> **Problem Statement:** T4.1 — *"The Auto Debits Nobody Can Find"*  
+> **Live Web App:** https://autodebitsnobodycanfind.streamlit.app/  
 
-Requires Python 3.9 or newer. From this folder:
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
+
+
 
 Choose **Load Synthetic Demo Statement** to explore the app without supplying a personal bank statement.
 
