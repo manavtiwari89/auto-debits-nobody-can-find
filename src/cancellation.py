@@ -33,7 +33,9 @@ MANDATE_REGULATORY_SUMMARY: Dict[str, Any] = {
         "In Indian banking, cancelling an in-app subscription stops the merchant from requesting renewals, "
         "but does NOT automatically revoke the bank-level standing mandate. Conversely, revoking a mandate "
         "withdraws the bank's debit authority, but does not cancel active contractual agreements. "
-        "Consumers should complete BOTH merchant-level cancellation AND bank/UPI mandate revocation."
+        "If you want to stop both service renewals and payment authority, handle merchant cancellation "
+        "and bank/UPI mandate revocation as separate steps where applicable. Check the service terms; "
+        "revoking a mandate alone may not end a contract or settle an amount already owed."
     ),
     "official_sources": [
         {
@@ -79,7 +81,9 @@ MANDATE_REGULATORY_SUMMARY: Dict[str, Any] = {
         }
     ],
     "app_boundary_disclaimer": (
-        "Privacy & Safety Notice: This application is purely diagnostic and operates 100% locally. "
+        "Privacy & Safety Notice: This application is purely diagnostic. Statement data is processed "
+        "in memory by the machine running the app; when run locally, it stays on your device, while "
+        "a hosted deployment processes it on the hosting server. "
         "It never accesses your bank credentials, never connects to third-party APIs, and NEVER cancels "
         "subscriptions or revokes mandates on your behalf. All cancellations must be completed by you directly."
     )

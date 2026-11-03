@@ -91,7 +91,7 @@ def main():
             """
             **The problem:** bank statements hide recurring payments behind cryptic merchant names. This prototype turns a CSV into an explainable review.
 
-            **Start here:** the **13-Case Test Benchmark** is preselected in the left panel.
+            **Start here:** In the left panel, choose **13-Case Test Benchmark (Clean - 223 transactions, 11 Series)**. This sample is set up to show the main features below.
 
             1. **Find commitments:** In *Subscriptions & Mandates*, open **Cult.fit** to see a paused-and-resumed pattern and **Amazon Prime** for an annual payment. Open a card to see why it was matched.
             2. **Spot lasting increases:** In *Stealth Price Hikes*, see persistent increases for **Netflix** and **Spotify**. **BESCOM** is treated as a variable electricity bill.
@@ -195,7 +195,14 @@ def main():
     # Execution & Validation Handling
     # -------------------------------------------------------------------------
     if not csv_content:
-        st.info("👈 Please select a demo statement or upload a bank statement CSV from the sidebar to start.")
+        if data_source == "Upload Statement CSV":
+            st.info("👈 Upload a bank statement CSV from the sidebar to start.")
+        else:
+            st.error(
+                f"### ❌ Sample statement could not be loaded\n"
+                f"The file for **{demo_choice}** was not found or is empty: `{file_path}`.\n\n"
+                "Please make sure the project’s `data/` folder is included and try again."
+            )
         return
 
     try:
@@ -409,7 +416,7 @@ def main():
                 In Indian banking, cancelling a subscription in a merchant app only tells the merchant to stop requesting billing.
                 <strong>It does NOT revoke your bank-level standing mandate or UPI AutoPay authorization.</strong><br>
                 Conversely, revoking an e-mandate in your bank or UPI app withdraws payment authority, but does not cancel active contractual agreements.<br>
-                <strong>Always perform both steps:</strong> (1) Cancel in the merchant account, and (2) Revoke the standing mandate in your payment app or NetBanking.
+                <strong>Handle these separately where applicable:</strong> (1) Cancel or manage the service with the merchant, and (2) review or revoke its payment mandate in your bank or UPI app if you want to stop that payment authority. Revoking a mandate alone may not end a service contract or settle any amount already owed; check the merchant’s terms and your bank’s guidance.
             </div>
             """,
             unsafe_allow_html=True,

@@ -1,7 +1,8 @@
 """Zero-Dependency Local Web Application for The Auto Debits Nobody Can Find.
 
-Uses Python standard library (http.server) to deliver a 100% local, interactive
-UI with zero external package dependencies. Runs immediately in any environment.
+Uses Python standard library (http.server) to deliver an interactive UI with zero
+external package dependencies. Uploaded statements are processed by this server;
+when hosted remotely, that server is not the user's device.
 """
 
 from __future__ import annotations
@@ -168,7 +169,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <header>
             <h1>🔍 The Auto Debits Nobody Can Find</h1>
             <p class="subtitle">HackFront 2026 • Privacy-First Indian Bank Statement Subscription & Stealth Debit Audit</p>
-            <div class="privacy-pill">🛡️ 100% In-Memory Local Execution • Zero External API Calls • Private Financial Vault</div>
+            <div class="privacy-pill">🛡️ Processed by This Server • No External API Calls</div>
         </header>
 
         <section class="panel">

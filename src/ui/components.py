@@ -67,7 +67,7 @@ def render_privacy_banner() -> None:
     st.markdown(
         """
         <div class="privacy-vault-pill">
-            🛡️ In-Memory Process Execution • Zero Third-Party API Calls • Private Financial Vault
+            🛡️ In-Memory Processing • No Third-Party API Calls • Sensitive Details Masked by Default
         </div>
         """,
         unsafe_allow_html=True,

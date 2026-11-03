@@ -27,6 +27,9 @@ from src.cancellation import CancellationRegistry
 from src.insights import CostEstimator
 
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 DEMO_FILES: Dict[str, Tuple[str, str]] = {
     "12-Month Realistic Demo ('Aarav' - 168 transactions)": (
         "data/synthetic/demo_transactions.csv",
@@ -55,12 +58,38 @@ DEMO_FILES: Dict[str, Tuple[str, str]] = {
 }
 
 
-def load_file_content(relative_path: str) -> Optional[str]:
-    """Loads CSV content from local workspace path."""
-    if not os.path.exists(relative_path):
+def resolve_statement_path(path_or_name: str) -> Optional[str]:
+    """Resolve a demo CSV against the project root, regardless of launch folder."""
+    if not path_or_name or not path_or_name.strip():
         return None
-    with open(relative_path, "r", encoding="utf-8", errors="replace") as f:
-        return f.read()
+
+    path_or_name = path_or_name.strip()
+    basename = os.path.basename(path_or_name)
+    candidates = [
+        path_or_name,
+        os.path.join(PROJECT_ROOT, path_or_name),
+        os.path.join(os.getcwd(), path_or_name),
+        os.path.join(PROJECT_ROOT, "data", "sample_statements", basename),
+        os.path.join(PROJECT_ROOT, "data", "synthetic", basename),
+        os.path.join(PROJECT_ROOT, "data", basename),
+    ]
+    for candidate in candidates:
+        if os.path.isfile(candidate):
+            return os.path.abspath(candidate)
+    return None
+
+
+def load_file_content(relative_path: str) -> Optional[str]:
+    """Load a bundled CSV using paths rooted at the project, not the shell cwd."""
+    resolved = resolve_statement_path(relative_path)
+    if not resolved:
+        return None
+    try:
+        with open(resolved, "r", encoding="utf-8", errors="replace") as f:
+            content = f.read()
+        return content if content.strip() else None
+    except OSError:
+        return None
 
 
 def run_pipeline(

@@ -109,7 +109,7 @@ def main():
     # Header
     st.title("🔍 The Auto Debits Nobody Can Find")
     st.markdown(
-        "<div class='privacy-pill'>🛡️ 100% In-Memory Local Execution • Zero External API Calls • Private Financial Vault</div>",
+        "<div class='privacy-pill'>🛡️ In-Memory Processing • No External API Calls • Sensitive Details Masked by Default</div>",
         unsafe_allow_html=True
     )
     st.markdown(
