@@ -86,7 +86,7 @@ def main():
     st.subheader("Privacy-First Recurring Payment & Stealth Auto-Debit Detector for Indian Users")
     render_privacy_banner()
 
-    with st.expander("🏁 Judge walkthrough · follow these 5 quick stops", expanded=True):
+    with st.expander("🏁 Judge walkthrough · follow these 5 quick stops", expanded=False):
         st.markdown(
             """
             **The problem:** bank statements hide recurring payments behind cryptic merchant names. This prototype turns a CSV into an explainable review.
